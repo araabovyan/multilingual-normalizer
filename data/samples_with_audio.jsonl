@@ -1,0 +1,25 @@
+{"class": "cardinal", "sentence": "The stadium capacity is exactly 1200 people.", "ground_truth": "The stadium capacity is exactly twelve hundred people.", "audio_filepath": "data/audios/sample_000.wav"}
+{"class": "cardinal", "sentence": "The stadium capacity is exactly 1200 people.", "ground_truth": "The stadium capacity is exactly one thousand two hundred people.", "audio_filepath": "data/audios/sample_001.wav"}
+{"class": "cardinal", "sentence": "We found 105 errors in the log file.", "ground_truth": "We found one hundred and five errors in the log file.", "audio_filepath": "data/audios/sample_002.wav"}
+{"class": "cardinal", "sentence": "We found 105 errors in the log file.", "ground_truth": "We found one oh five errors in the log file.", "audio_filepath": "data/audios/sample_003.wav"}
+{"class": "cardinal", "sentence": "Please add 201 to the final count.", "ground_truth": "Please add two hundred one to the final count.", "audio_filepath": "data/audios/sample_004.wav"}
+{"class": "date", "sentence": "The company was founded in 2022 by two engineers.", "ground_truth": "The company was founded in twenty twenty-two by two engineers.", "audio_filepath": "data/audios/sample_005.wav"}
+{"class": "date", "sentence": "The company was founded in 2022 by two engineers.", "ground_truth": "The company was founded in two thousand and twenty-two by two engineers.", "audio_filepath": "data/audios/sample_006.wav"}
+{"class": "date", "sentence": "The old factory closed down in 1908.", "ground_truth": "The old factory closed down in nineteen oh eight.", "audio_filepath": "data/audios/sample_007.wav"}
+{"class": "date", "sentence": "The old factory closed down in 1908.", "ground_truth": "The old factory closed down in nineteen hundred and eight.", "audio_filepath": "data/audios/sample_008.wav"}
+{"class": "date", "sentence": "They updated the privacy policy in 2010.", "ground_truth": "They updated the privacy policy in twenty ten.", "audio_filepath": "data/audios/sample_009.wav"}
+{"class": "currency", "sentence": "Your total comes to $4.99 at the register.", "ground_truth": "Your total comes to four dollars and ninety-nine cents at the register.", "audio_filepath": "data/audios/sample_010.wav"}
+{"class": "currency", "sentence": "Your total comes to $4.99 at the register.", "ground_truth": "Your total comes to four ninety-nine at the register.", "audio_filepath": "data/audios/sample_011.wav"}
+{"class": "currency", "sentence": "The repair will cost you \u00a31500 in total.", "ground_truth": "The repair will cost you fifteen hundred pounds in total.", "audio_filepath": "data/audios/sample_012.wav"}
+{"class": "currency", "sentence": "The repair will cost you \u00a31500 in total.", "ground_truth": "The repair will cost you one thousand five hundred pounds in total.", "audio_filepath": "data/audios/sample_013.wav"}
+{"class": "currency", "sentence": "I bought this coffee for $1.50 yesterday.", "ground_truth": "I bought this coffee for a dollar fifty yesterday.", "audio_filepath": "data/audios/sample_014.wav"}
+{"class": "time", "sentence": "The next train departs at 08:05 sharp.", "ground_truth": "The next train departs at eight oh five sharp.", "audio_filepath": "data/audios/sample_015.wav"}
+{"class": "time", "sentence": "The next train departs at 08:05 sharp.", "ground_truth": "The next train departs at five past eight sharp.", "audio_filepath": "data/audios/sample_016.wav"}
+{"class": "time", "sentence": "Let's schedule the meeting for 15:30.", "ground_truth": "Let's schedule the meeting for fifteen thirty.", "audio_filepath": "data/audios/sample_017.wav"}
+{"class": "time", "sentence": "Let's schedule the meeting for 15:30.", "ground_truth": "Let's schedule the meeting for three thirty pm.", "audio_filepath": "data/audios/sample_018.wav"}
+{"class": "time", "sentence": "The alarm went off at 10:15.", "ground_truth": "The alarm went off at a quarter past ten.", "audio_filepath": "data/audios/sample_019.wav"}
+{"class": "sequence", "sentence": "Your appointment is in Room 314.", "ground_truth": "Your appointment is in Room three fourteen.", "audio_filepath": "data/audios/sample_020.wav"}
+{"class": "sequence", "sentence": "Your appointment is in Room 314.", "ground_truth": "Your appointment is in Room three one four.", "audio_filepath": "data/audios/sample_021.wav"}
+{"class": "sequence", "sentence": "The flight number is BA 772.", "ground_truth": "The flight number is BA seven seven two.", "audio_filepath": "data/audios/sample_022.wav"}
+{"class": "sequence", "sentence": "The flight number is BA 772.", "ground_truth": "The flight number is BA seven seventy-two.", "audio_filepath": "data/audios/sample_023.wav"}
+{"class": "sequence", "sentence": "My emergency contact ends in 911.", "ground_truth": "My emergency contact ends in nine one one.", "audio_filepath": "data/audios/sample_024.wav"}

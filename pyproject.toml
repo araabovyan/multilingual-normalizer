@@ -1,0 +1,68 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "multilingual-normalizer"
+version = "0.1.0"
+description = "Audio-guided multilingual speech number normalizer for TTS/ASR dataset preparation"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+dependencies = [
+    "torch>=2.0",
+    "torchaudio>=2.0",
+    "transformers>=4.40",
+    "num2words>=0.5.13",
+    "gradio>=4.0",
+    "soundfile>=0.12",
+    "librosa>=0.10",
+    "numpy>=1.24",
+    "accelerate>=0.20",
+    "nemo-text-processing>=1.1.0",
+]
+
+[project.optional-dependencies]
+nemo = [
+    "nemo_text_processing",
+]
+dev = [
+    "pytest>=7.0",
+    "pytest-cov",
+    "pytest-mock",
+]
+
+[project.scripts]
+normalize-numbers = "normalizer.cli:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["normalizer"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-v"
+
+[tool.uv]
+# Install PyTorch with CUDA support by default.
+# Override with: uv sync --extra-index-url https://download.pytorch.org/whl/cpu
+# for CPU-only.
+index-strategy = "unsafe-best-match"
+
+[[tool.uv.index]]
+name = "pytorch-cu121"
+url = "https://download.pytorch.org/whl/cu121"
+explicit = true
+
+[tool.uv.sources]
+torch = [
+    { index = "pytorch-cu121", marker = "sys_platform == 'linux'" },
+]
+torchaudio = [
+    { index = "pytorch-cu121", marker = "sys_platform == 'linux'" },
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.0.2",
+    "pytest-cov>=7.0.0",
+]

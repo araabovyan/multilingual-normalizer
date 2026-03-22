@@ -1,0 +1,44 @@
+{"class": "cardinal", "sentence": "I have exactly 105 pending emails.", "ground_truth": "I have exactly one hundred and five pending emails.", "audio_filepath": "data/audios_samples_1/sample_000.wav"}
+{"class": "cardinal", "sentence": "I have exactly 105 pending emails.", "ground_truth": "I have exactly one oh five pending emails.", "audio_filepath": "data/audios_samples_1/sample_001.wav"}
+{"class": "cardinal", "sentence": "The company grew to 2022 employees this year.", "ground_truth": "The company grew to two thousand and twenty-two employees this year.", "audio_filepath": "data/audios_samples_1/sample_002.wav"}
+{"class": "cardinal", "sentence": "The company grew to 2022 employees this year.", "ground_truth": "The company grew to twenty twenty-two employees this year.", "audio_filepath": "data/audios_samples_1/sample_003.wav"}
+{"class": "cardinal", "sentence": "There are 1001 ways to solve this.", "ground_truth": "There are one thousand and one ways to solve this.", "audio_filepath": "data/audios_samples_1/sample_004.wav"}
+{"class": "ordinal", "sentence": "She finished in 3rd place overall.", "ground_truth": "She finished in third place overall.", "audio_filepath": "data/audios_samples_1/sample_005.wav"}
+{"class": "ordinal", "sentence": "This is the 105th customer today.", "ground_truth": "This is the one hundred and fifth customer today.", "audio_filepath": "data/audios_samples_1/sample_007.wav"}
+{"class": "ordinal", "sentence": "This is the 105th customer today.", "ground_truth": "This is the one oh fifth customer today.", "audio_filepath": "data/audios_samples_1/sample_008.wav"}
+{"class": "ordinal", "sentence": "Today is the 22nd of the month.", "ground_truth": "Today is the twenty-second of the month.", "audio_filepath": "data/audios_samples_1/sample_009.wav"}
+{"class": "date", "sentence": "The meeting is scheduled for 2025-03-22.", "ground_truth": "The meeting is scheduled for March twenty second twenty twenty-five.", "audio_filepath": "data/audios_samples_1/sample_010.wav"}
+{"class": "date", "sentence": "The meeting is scheduled for 2025-03-22.", "ground_truth": "The meeting is scheduled for the twenty-second of March two thousand twenty-five.", "audio_filepath": "data/audios_samples_1/sample_011.wav"}
+{"class": "date", "sentence": "Delivery expected on 12/25/2024.", "ground_truth": "Delivery expected on December twenty fifth twenty twenty-four.", "audio_filepath": "data/audios_samples_1/sample_012.wav"}
+{"class": "date", "sentence": "Delivery expected on 12/25/2024.", "ground_truth": "Delivery expected on twenty fifth December two thousand twenty-four.", "audio_filepath": "data/audios_samples_1/sample_013.wav"}
+{"class": "date", "sentence": "Born on 07-04-1776.", "ground_truth": "Born on July fourth seventeen seventy-six.", "audio_filepath": "data/audios_samples_1/sample_014.wav"}
+{"class": "time", "sentence": "The flight departs at 14:45.", "ground_truth": "The flight departs at fourteen forty-five.", "audio_filepath": "data/audios_samples_1/sample_015.wav"}
+{"class": "time", "sentence": "The flight departs at 14:45.", "ground_truth": "The flight departs at two forty five p m.", "audio_filepath": "data/audios_samples_1/sample_016.wav"}
+{"class": "time", "sentence": "We meet at 9:30 sharp.", "ground_truth": "We meet at nine thirty sharp.", "audio_filepath": "data/audios_samples_1/sample_017.wav"}
+{"class": "time", "sentence": "We meet at 9:30 sharp.", "ground_truth": "We meet at half past nine sharp.", "audio_filepath": "data/audios_samples_1/sample_018.wav"}
+{"class": "time", "sentence": "Alarm set for 03:15.", "ground_truth": "Alarm set for three fifteen a m.", "audio_filepath": "data/audios_samples_1/sample_019.wav"}
+{"class": "measure", "sentence": "The distance is exactly 5.5 km.", "ground_truth": "The distance is exactly five point five kilometers.", "audio_filepath": "data/audios_samples_1/sample_020.wav"}
+{"class": "measure", "sentence": "The distance is exactly 5.5 km.", "ground_truth": "The distance is exactly five and a half kilometers.", "audio_filepath": "data/audios_samples_1/sample_021.wav"}
+{"class": "measure", "sentence": "It weighs 2.25 tons.", "ground_truth": "It weighs two point two five tons.", "audio_filepath": "data/audios_samples_1/sample_022.wav"}
+{"class": "measure", "sentence": "Temperature reached 37.8 degrees.", "ground_truth": "Temperature reached thirty-seven point eight degrees.", "audio_filepath": "data/audios_samples_1/sample_023.wav"}
+{"class": "measure", "sentence": "Speed limit is 65 mph.", "ground_truth": "Speed limit is sixty-five miles per hour.", "audio_filepath": "data/audios_samples_1/sample_024.wav"}
+{"class": "decimal", "sentence": "Pi is approximately 3.1416.", "ground_truth": "Pi is approximately three point one four one six.", "audio_filepath": "data/audios_samples_1/sample_025.wav"}
+{"class": "decimal", "sentence": "Pi is approximately 3.1416.", "ground_truth": "Pi is approximately three point fourteen sixteen.", "audio_filepath": "data/audios_samples_1/sample_026.wav"}
+{"class": "decimal", "sentence": "The rate is 0.075 percent.", "ground_truth": "The rate is zero point zero seven five percent.", "audio_filepath": "data/audios_samples_1/sample_027.wav"}
+{"class": "decimal", "sentence": "The score was 4.8 out of 5.", "ground_truth": "The score was four point eight out of five.", "audio_filepath": "data/audios_samples_1/sample_028.wav"}
+{"class": "decimal", "sentence": "Version 2.3.1 is stable.", "ground_truth": "Version two point three point one is stable.", "audio_filepath": "data/audios_samples_1/sample_029.wav"}
+{"class": "fraction", "sentence": "We need 1/2 cup of sugar.", "ground_truth": "We need one half cup of sugar.", "audio_filepath": "data/audios_samples_1/sample_030.wav"}
+{"class": "fraction", "sentence": "We need 1/2 cup of sugar.", "ground_truth": "We need a half cup of sugar.", "audio_filepath": "data/audios_samples_1/sample_031.wav"}
+{"class": "fraction", "sentence": "She scored 3/4 on the test.", "ground_truth": "She scored three quarters on the test.", "audio_filepath": "data/audios_samples_1/sample_032.wav"}
+{"class": "fraction", "sentence": "She scored 3/4 on the test.", "ground_truth": "She scored three fourths on the test.", "audio_filepath": "data/audios_samples_1/sample_033.wav"}
+{"class": "fraction", "sentence": "Only 2/5 of the team attended.", "ground_truth": "Only two fifths of the team attended.", "audio_filepath": "data/audios_samples_1/sample_034.wav"}
+{"class": "money", "sentence": "The surcharge will be $31.", "ground_truth": "The surcharge will be thirty one dollars.", "audio_filepath": "data/audios_samples_1/sample_035.wav"}
+{"class": "money", "sentence": "The surcharge will be $31.", "ground_truth": "The surcharge will be thirty-one dollars.", "audio_filepath": "data/audios_samples_1/sample_036.wav"}
+{"class": "money", "sentence": "Total cost is \u20ac245.50.", "ground_truth": "Total cost is two hundred forty five euros and fifty cents.", "audio_filepath": "data/audios_samples_1/sample_037.wav"}
+{"class": "money", "sentence": "Total cost is \u20ac245.50.", "ground_truth": "Total cost is two hundred and forty five point five zero euros.", "audio_filepath": "data/audios_samples_1/sample_038.wav"}
+{"class": "money", "sentence": "Price dropped to \u00a312.99.", "ground_truth": "Price dropped to twelve pounds ninety nine.", "audio_filepath": "data/audios_samples_1/sample_039.wav"}
+{"class": "telephone", "sentence": "Call me at 555-123-4567.", "ground_truth": "Call me at five five five one two three four five six seven.", "audio_filepath": "data/audios_samples_1/sample_040.wav"}
+{"class": "telephone", "sentence": "Call me at 555-123-4567.", "ground_truth": "Call me at five hundred fifty five twelve thirty four fifty six seventy.", "audio_filepath": "data/audios_samples_1/sample_041.wav"}
+{"class": "telephone", "sentence": "Office number is 1-800-555-0199.", "ground_truth": "Office number is one eight hundred five five five zero one nine nine.", "audio_filepath": "data/audios_samples_1/sample_042.wav"}
+{"class": "telephone", "sentence": "Office number is 1-800-555-0199.", "ground_truth": "Office number is one eight zero zero five five five zero one nine nine.", "audio_filepath": "data/audios_samples_1/sample_043.wav"}
+{"class": "telephone", "sentence": "Dial 911 in emergency.", "ground_truth": "Dial nine one one in emergency.", "audio_filepath": "data/audios_samples_1/sample_044.wav"}
