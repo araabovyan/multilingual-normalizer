@@ -16,7 +16,7 @@ Usage
 -----
     python scripts/eval_on_samples.py
     python scripts/eval_on_samples.py --backend nemo
-    python scripts/eval_on_samples.py --backend nemo --nemo-cache-dir ~/.cache/multilingual_normalizer/nemo_tn
+    python scripts/eval_on_samples.py --backend nemo --nemo-cache-dir ./nemo_cache
     python scripts/eval_on_samples.py [--data PATH] [--audio-dir DIR] [--out PATH]
 """
 
@@ -37,9 +37,7 @@ sys.path.insert(0, str(ROOT))
 from normalizer.pipeline import NumberNormalizer  # noqa: E402
 
 DEFAULT_DATA = ROOT / "data" / "samples_with_audio.jsonl"
-_DEFAULT_NEMO_CACHE = str(
-    Path.home() / ".cache" / "multilingual_normalizer" / "nemo_tn"
-)
+_DEFAULT_NEMO_CACHE = str(ROOT / "nemo_cache")
 
 
 # ---------------------------------------------------------------------------

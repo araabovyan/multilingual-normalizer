@@ -5,12 +5,12 @@ Gradio demo — Multilingual Number Normalizer
 Run:
     uv run python demo/app.py
     uv run python demo/app.py --backend nemo
-    uv run python demo/app.py --backend nemo --nemo-cache-dir /path/to/cache
+    uv run python demo/app.py --backend nemo --nemo-cache-dir ./nemo_cache
 
 Options:
     --backend          Candidate backend: 'nemo' (default) or 'num2words'
     --nemo-cache-dir   Directory for NeMo compiled grammar cache.
-                       Default: ~/.cache/multilingual_normalizer/nemo_tn
+                       Default: ./nemo_cache (pre-compiled cache in the repo root)
                        Re-using the cache avoids ~8 min grammar compilation.
 
 Opens at http://localhost:7860
@@ -188,7 +188,7 @@ Convert **written numbers** in text to their **spoken form**, optionally guided 
 
 if __name__ == "__main__":
     _DEFAULT_NEMO_CACHE = str(
-        Path.home() / ".cache" / "multilingual_normalizer" / "nemo_tn"
+        Path(__file__).resolve().parent.parent / "nemo_cache"
     )
 
     parser = argparse.ArgumentParser(
